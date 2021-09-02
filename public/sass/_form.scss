@@ -1,0 +1,42 @@
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+  position: relative;
+
+  label {
+    display: block;
+  }
+
+  input {
+    font-size: 17px;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;    
+    width: 100%;
+
+    &.invalid,
+    &.invalid:focus {
+      border: 1px solid red;
+      border-radius: 2px;
+      outline: none;
+    }
+  }
+}
+
+.form-control-check {
+  align-items: center;
+  display: flex;
+
+  label {
+    line-height: 1;
+  }
+
+  input {
+    height: 20px;
+    margin: 0 10px 0 0;
+    width: 20px;
+  }
+}

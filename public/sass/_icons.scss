@@ -1,0 +1,15 @@
+.fas {
+  &.fa-pencil-alt {
+    color: green;
+    margin-right: 15px;
+  }
+
+  &.fa-times {
+    color: red;
+  }
+
+  &.fa-exclamation {    
+    color: red;
+    font-size: 90%;
+  }
+}
